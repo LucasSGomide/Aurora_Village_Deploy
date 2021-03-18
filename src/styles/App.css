@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(236, 235, 235);
+  font-family: 'Nunito', sans-serif;
+  color: #666;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 150px;
+  width: 100%;
+}
+
+header img {
+  width: 140px;
+  height: 120px;
+  align-self: center;
+}
+
+header nav {
+  display: none;
+  font-weight: 600;
+}
+
+header nav a {
+  margin-top: 5px;
+  text-decoration: none;
+  color: rgb(78, 33, 2);
+  cursor: pointer;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-decoration-thickness: 2px;
+}
+
+.video-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-player {
+  max-width: 95%;
+  align-self: center;
+}
+
+.h2-desktop {
+  display: none;
+}
+
+.h2-mobile {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.whatsapp {
+  width: 40px;
+  position: fixed;
+  right: 20px;
+  top: 30px;
+}
+
+.diferenciais {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.card-diferenciais {
+  margin-top: 30px;
+  width: 90%;
+  margin-left: 15px;
+}
+
+.card-diferenciais h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-section {
+  background: url("../images/SECTION_3D.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-align: center;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 370px;
+  border: 1px solid rgb(144, 144, 144);
+}
+
+.contact-section input {
+  width: 90%;
+  margin-top: 20px;
+  border: 1px solid rgb(59, 59, 59);
+  font-size: 1.2rem;
+  border: 1px solid rgb(144, 144, 144);
+}
+
+.contact-section h2 {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.contact-section form h2 {
+  color: rgb(228, 228, 228);
+}
+
+.contact-section h4 {
+  color: rgb(231, 230, 230);
+  text-align: center;
+  width: 80%;
+  align-self: center;
+}
+
+.contact-section div {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  resize: none;
+  width: 90%;
+  height: 100px;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  border: 1px solid rgb(144, 144, 144);
+}
+
+#submit {
+  color: white;
+  background-color: green;
+  font-size: 1rem;
+  width: 40%;
+  height: 30px;
+  padding-top: 2.5px;
+  border-radius: 12px;
+  margin-top: 5px;
+}
+
+.localizacao {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contato-footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.div-footer {
+  width: 100%;
+}
+
+.font-white {
+  color: white;
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+}
+
+.direitos-reservados {
+  text-align: center;
+}
+
+@media only screen and (min-width: 769px) {
+  header {
+    align-items: center;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+  }
+
+  .video-section {
+    margin-top: 50px;
+  }
+
+  .todos-cards-dif {
+    display: flex;
+  }
+
+  .section-web {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
